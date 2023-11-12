@@ -40,67 +40,67 @@ marklist = {
 
 
 
-#lower upper 
+##lower upper 
 
-# data = 'my name is boslu'
+data = 'my name is boslu'
 
-# print(data.upper())
+print(data.upper())
 
-# dataa = 'a'
+dataa = 'a'
 
 
-# if dataa.islower():
-#     print('it is a lower case ')
+if dataa.islower():
+    print('it is a lower case ')
         
-# else:
-#     print ('it is upper case')
+else:
+    print ('it is upper case')
 
 
-#copiying dictionary to another dictionary with a loop
+##copiying dictionary to another dictionary with a loop
 
-# print(capitals.items())
+print(capitals.items())
 
-# chutiyaLand = {}
+chutiyaLand = {}
 
 
-# for k,v in capitals.items():
+for k,v in capitals.items():
     
-#     chutiyaLand[k] = v
+    chutiyaLand[k] = v
     
-# print(chutiyaLand)
+print(chutiyaLand)
 
 
-# def absolute(number):
+def absolute(number):
    
    
    
-#    print('The Absolute NUmbers is ', abs(number))
+   print('The Absolute NUmbers is ', abs(number))
    
-# value = int(input('Please Enter a Number'))
+value = int(input('Please Enter a Number'))
 
 
 
-# absolute(value)
-# try:
+absolute(value)
+try:
    
-#    number = float(input('Please enter a number'))
+   number = float(input('Please enter a number'))
 
-#    if isinstance(number,(int,float)):
-#       print (abs(number))
+   if isinstance(number,(int,float)):
+      print (abs(number))
    
-# except ValueError:
-#    print('Only Numbers are accepted\n PLease Enter a number')
+except ValueError:
+   print('Only Numbers are accepted\n PLease Enter a number')
 
 
-# def factorial(number):
+def factorial(number):
    
-#    if number == 0 or number == 1:
-#       return 1
-#    else:
-#       return number * factorial(number -1)
+   if number == 0 or number == 1:
+      return 1
+   else:
+      return number * factorial(number -1)
    
-# n = int(input('please neter a number'))
+n = int(input('please neter a number'))
 
 
-# factorial(n)
+factorial(n)
 

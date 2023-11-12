@@ -9,7 +9,7 @@ for i in text:
         vchars.append(i)
 
 
-print(chars)
+print(vchars)
 
 
 #### finding consonents 

@@ -3,60 +3,60 @@ li =['w', 'o', 'r', 'l', 'd']
 
 # # capitralize
 
-# l = data.capitalize()
+l = data.capitalize()
 
-# print(l)
+print(l)
 
 
 # # lower 
 
 
-# l = data.lower()
+l = data.lower()
 
-# print(l)
+print(l)
 
 
 # # # upper 
 
-# l = data.upper()
-# print(l)
+l = data.upper()
+print(l)
 
 # # # list to string 
 
-# st = ''.join(li)
+st = ''.join(li)
 
-# print(st)
+print(st)
 
 # # # # string to list 
 
 
-# print(list(st))
+print(list(st))
 
 # # # inserting in list 
 
-# li.append('s')
+li.append('s')
 
-# print(li)
+print(li)
 
-# li.insert(2,'x')
-# print(li)
+li.insert(2,'x')
+print(li)
 
 # # # # # string split 
 
-# print(data.split(' '))
+print(data.split(' '))
 
 
 # # 3 # # # # find 
 
-# print(data.find("Dota"))
+print(data.find("Dota"))
 
-# # # # count can only count the times a character is used 
+# # # count can only count the times a character is used 
 
-# co = data.count('i')
+co = data.count('i')
 
-# print(co)
+print(co)
 
 # # # # # replace must assign a variable first 
-# newData = data.replace('play','ride')
+newData = data.replace('play','ride')
 
-# print(newData)
+print(newData)
